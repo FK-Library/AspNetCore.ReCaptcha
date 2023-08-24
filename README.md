@@ -29,7 +29,7 @@ Place the aquired secret key and site key in the appsettings.json of your projec
         "Version": "v2", // The ReCaptcha version to use, can be v2, v2invisible or v3
         "UseRecaptchaNet": false, // Value whether to use google recaptcha or recaptcha.net
         "ScoreThreshold": 0.5, // Only applicable for recaptcha v3, specifies the score threshold when it is considered successful
-    }
+        "Enabled" : true // Determines whether Google reCAPTCHA is enabled.
 }
 ```
 
